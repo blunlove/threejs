@@ -90,7 +90,7 @@ let mixers = [];
 let clock = new THREE.Clock();
 let loader = new THREE.FBXLoader(manager);
 let obj;
-loader.load('./src/models/kule.fbx', function (object) {
+loader.load('./src/models/diandongji.fbx', function (object) {
     obj = object;
     obj.mixer = new THREE.AnimationMixer(obj);
     mixers.push(obj.mixer);
